@@ -1,5 +1,5 @@
 use clap::{Parser, Subcommand};
-use rust_ring_ec::{Ed25519Engine, Ed25519PublicKey, Error};
+use rust_ring_ed25519::{Ed25519Engine, Ed25519PublicKey, Error};
 
 
 #[derive(Parser)]

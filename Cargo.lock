@@ -227,7 +227,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust-ring-ec"
+name = "rust-ring-ed25519"
 version = "0.1.0"
 dependencies = [
  "clap",

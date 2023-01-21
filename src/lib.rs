@@ -21,7 +21,7 @@ impl Ed25519Engine {
     /// # Example: generate, sign, and verify
     ///
     /// ```
-    /// use rust_ring_ec::Ed25519Engine;
+    /// use rust_ring_ed25519::Ed25519Engine;
     ///
     /// // Create an engine and save the keys to filesystem for later use
     /// let engine = Ed25519Engine::generate("key.priv", "key.pub").unwrap();
@@ -51,7 +51,7 @@ impl Ed25519Engine {
     /// # Example: new, sign, and verify
     ///
     /// ```
-    /// use rust_ring_ec::Ed25519Engine;
+    /// use rust_ring_ed25519::Ed25519Engine;
     ///
     /// // Create an engine without persisting keys
     /// let engine = Ed25519Engine::new();
@@ -90,7 +90,7 @@ impl Ed25519Engine {
     /// # Example: sending a public key to a server to use as an identity key
     ///
     /// ```
-    /// use rust_ring_ec::Ed25519Engine;
+    /// use rust_ring_ed25519::Ed25519Engine;
     ///
     /// // Create an engine without persisting keys
     /// let engine = Ed25519Engine::new();
